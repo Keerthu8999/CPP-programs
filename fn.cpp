@@ -1,0 +1,27 @@
+void game(int turn)
+{
+if(turn==p1)
+{
+cin>>choice;
+if(choice==1)
+a[0]/=2;
+if(choice==2)
+a[1]/=2;
+if(choice==3)
+a[2]/=2;
+if(a[0]/2==0||a[1]/2==1||a[2]/2==0)
+cout<<"heyyy";
+}
+if(turn==p2)
+{
+cin>>choice;
+if(choice==1)
+a[0]/=2;
+if(choice==2)
+a[1]/=2;
+if(choice==3)
+a[2]/=2;
+if(a[0]/2==0||a[1]/2==1||a[2]/2==0)
+cout<<"heyyy";
+}
+}
